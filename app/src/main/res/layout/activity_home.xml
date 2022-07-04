@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/idGroupBotones"
+        android:layout_width="140dp"
+        android:layout_height="145dp"
+        android:layout_margin="18dp"
+        app:fab_expandDirection="up"
+        app:fab_addButtonColorNormal="#19D1AD"
+        app:fab_labelStyle="@style/FloatStyle"
+        app:fab_labelsPosition="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idCerrarSesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FFF"
+            app:fab_icon="@drawable/ic_logout"
+            app:fab_size="mini"
+            app:fab_title="Cerrar Sesión">
+        </com.getbase.floatingactionbutton.FloatingActionButton>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idAgregarItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#FFF"
+            app:fab_icon="@drawable/ic_baseline_add_24"
+            app:fab_size="mini"
+            app:fab_title="Registrar Reserva">
+        </com.getbase.floatingactionbutton.FloatingActionButton>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
 </androidx.constraintlayout.widget.ConstraintLayout>

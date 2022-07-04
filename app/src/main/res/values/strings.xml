@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">EnergymApplication</string>
+    <string name="app_name">Energym</string>
+    <string name="invalid_mail">Ingrese un email valido</string>
+    <string name="invalid_password">Ingrese una contraseña mayor a 6 dígitos</string>
 </resources>
